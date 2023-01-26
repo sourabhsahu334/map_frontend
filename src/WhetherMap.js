@@ -61,24 +61,7 @@ const WhetherMap = () => {
     ))}
 </Map>
 <div>
-<table>
-                <thead>
-                    <tr>
-                        <th>City</th>
-                        <th>Temperature (Kelvin)</th>
-                        <th>Weather Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {weatherData.map(item => (
-                        <tr key={item.id}>
-                            <td>{item.name}</td>
-                            <td>{item.main.temp}</td>
-                            <td>{item.weather[0].description}</td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
+
 
 </div>
 
